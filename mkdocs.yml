@@ -5,8 +5,8 @@ site_author: Shenlong Yu
 
 theme:
     name: 'material'
-    logo: :simple-graphql:
-    favicon: :simple-graphql:
+    logo: material/graphql
+    favicon: material/graphql
     custom_dir: overrides
     font:
         text: Ubuntu
