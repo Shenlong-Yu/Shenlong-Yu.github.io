@@ -4,12 +4,10 @@ tags:
 share: true
 ---
 State
-$$
-|\psi\rangle=\cos \theta|0\rangle+e^{i \phi} \sin \theta|1\rangle=\left(\begin{array}{c}
+$$|\psi\rangle=\cos \theta|0\rangle+e^{i \phi} \sin \theta|1\rangle=\left(\begin{array}{c}
 \cos \theta \\
 e^{i \phi} \sin \theta
-\end{array}\right)
-$$
+\end{array}\right)$$
 Density matrix
 $$\begin{aligned} \rho=|\psi\rangle\langle\psi| & =\frac{1}{2}\left(\begin{array}{cc}2 \cos ^2 \theta & e^{-i \phi} \sin 2 \theta \\ e^{i \phi} \sin 2 \theta & 2 \sin ^2 \theta\end{array}\right) \\ & =\frac{1}{2}\left(\begin{array}{cc}1+\cos 2 \theta & \sin 2 \theta \cos \phi-i \sin 2 \theta \sin \phi \\ \sin 2 \theta \cos \phi+i \sin 2 \theta \sin \phi & 1-\cos 2 \theta\end{array}\right) \\ & =\frac{1}{2}(I+\vec{n} \cdot \vec{\sigma})\end{aligned}$$
 [[Born rule|Born rule]]
