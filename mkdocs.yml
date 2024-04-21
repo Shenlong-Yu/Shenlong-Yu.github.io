@@ -5,8 +5,8 @@ site_author: Shenlong Yu
 
 theme:
     name: 'material'
-    logo: material/library
-    favicon: material/library
+    # logo: material/library
+    # favicon: material/library
     custom_dir: overrides
     font:
         text: Ubuntu
