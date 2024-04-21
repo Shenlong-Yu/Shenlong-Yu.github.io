@@ -42,6 +42,8 @@ theme:
 
 # Extensions
 markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
   - footnotes
   - nl2br
   - attr_list
@@ -114,6 +116,9 @@ hooks:
   - overrides/hooks/on_files.py
 extra_javascript:
   - https://cdn.jsdelivr.net/gh/ObsidianPublisher/assets@main/dist/javascript.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
