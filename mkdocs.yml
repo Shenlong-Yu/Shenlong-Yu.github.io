@@ -124,7 +124,7 @@ extra_css:
     - assets/css/customization.css
 extra:
   SEO: assets/meta/SEO.png
-  comments: $comments #disable comments globally
+  # comments: $comments #disable comments globally
   generate_graph: $generate_graph #generate the graph of the site
   attachments: 'assets/img' #path to the folder where the attachments are stored
   no-auto-h1: $auto_h1 #disable the automatic generation of h1 if no h1 is found
