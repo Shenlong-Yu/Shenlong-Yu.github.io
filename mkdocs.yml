@@ -11,7 +11,7 @@ theme:
     font:
         text: Ubuntu
         code: Ubuntu Mono
-    language: $language
+    # language: $language
     palette:
 
     # Light mode
@@ -26,7 +26,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
+      primary: green
       accent: indigo
       toggle:
         icon: material/toggle-switch
