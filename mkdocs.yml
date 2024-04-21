@@ -5,8 +5,8 @@ site_author: Shenlong Yu
 
 theme:
     name: 'material'
-    logo: material/graphql
-    favicon: material/graphql
+    logo: material/library
+    favicon: material/library
     custom_dir: overrides
     font:
         text: Ubuntu
@@ -42,10 +42,6 @@ theme:
 
 # Extensions
 markdown_extensions:
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - footnotes
   - nl2br
   - attr_list
