@@ -1,7 +1,6 @@
 ---
 tags:
   - Physics/Classical_Mechanics
-dg-publish: true
 share: true
 ---
 # Hamilton's principle
